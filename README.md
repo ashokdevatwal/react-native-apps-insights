@@ -48,6 +48,10 @@ AppsInsights.config({
  - Install your test build using adb. `adb install -r app-debug.apk` Open the app through the play store.
  - Google Play will be returning your test campaign now
  - When you put your app to close testing you don’t need to follow above steps to check out the referral feature just click on campaign link and install app
+
+ ### Note: 
+ If you have previously opened the Play Store via a referral link, you must clear Play Store data before testing another link for the same app. This is because the Play Store retains data from the previous link, and if that link was broken or invalid, you won’t be able to test a new one.
+
  
 #### Dummy Facebook App Install Campaign link
 ```Link
