@@ -1,6 +1,6 @@
 {
   "name": "@ashokdevatwal/react-native-apps-insights",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "App Install Referrer with facebook app install campaign",
   "main": "index.js",
   "scripts": {
