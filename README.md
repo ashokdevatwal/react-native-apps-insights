@@ -50,7 +50,12 @@ AppsInsights.config({
  - When you put your app to close testing you don’t need to follow above steps to check out the referral feature just click on campaign link and install app
 
  ### Note: 
- If you have previously opened the Play Store via a referral link, you must clear Play Store data before testing another link for the same app. This is because the Play Store retains data from the previous link, and if that link was broken or invalid, you won’t be able to test a new one.
+  - If you have previously opened the Play Store via a referral link, you must clear Play Store data before testing another link for the same app. This is because the Play Store retains data from the previous link, and if that link was broken or invalid, you won’t be able to test a new one.
+
+  - On Live, the Play Store caches the referral link on its end and associates it with the user's account, which may cause it to work inconsistently for the same user.
+  - It won't work with organization/Google Workspace accounts.
+
+
 
  
 #### Dummy Facebook App Install Campaign link
